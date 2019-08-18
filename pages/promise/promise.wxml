@@ -1,0 +1,10 @@
+<!--promise.wxml-->
+<import src="../../template/user.wxml"/>
+
+<view class="container">
+    <view>
+        <button>我是一个button</button>
+        <label style="border: 2rpx solid; border-color: burlywood">我是一个button</label>
+        <template is="user" data="{{...img}}"></template>
+    </view>
+</view>

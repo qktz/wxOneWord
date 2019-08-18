@@ -1,0 +1,7 @@
+.tpl_name_label {
+    border: 2rpx solid;
+    border-color: burlywood;
+    margin: 50rpx 0rpx 0rpx 0rpx;
+    width: 200rpx;
+    align-items: flex-start;
+}

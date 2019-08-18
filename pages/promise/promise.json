@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "详细",
+    "usingComponents": {
+        "i-avatar": "../../dist/avatar/index"
+    }
+}

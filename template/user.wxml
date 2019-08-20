@@ -1,6 +1,6 @@
 <template name="user">
-    <view style="display:flex;flex-direction:column">
-        <image mode="widthFix" style="width: 350rpx" src="{{imgSrc}}"></image>
+    <view class="user_show">
+        <image mode="widthFix" style="width: 100%" src="{{imgSrc}}"></image>
         <label class="tpl_name_label"> {{name}} </label>
     </view>
 </template>

@@ -3,6 +3,6 @@
 
 <view class="whole_container">
 	<block class="user_container" wx:for="{{img}}">
-		<template is="user" data="{{...item}}" />
+	<template is="user" data="{{...item}}" />
 	</block>
 </view>

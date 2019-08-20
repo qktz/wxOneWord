@@ -1,12 +1,16 @@
 @import "../../template/user.wxss";
 
 .whole_container {
+    width: 100%;
     border: 4rpx solid;
     display: flex;
     flex-direction: row;
 }
 
 .user_container {
+    align-content: center;
+    margin:auto;
+    width: 100%;
     border: 5rpx dashed;
     display: flex;
     flex-direction: column;

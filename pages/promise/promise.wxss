@@ -1,2 +1,13 @@
 @import "../../template/user.wxss";
 
+.whole_container {
+    border: 4rpx solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.user_container {
+    border: 5rpx dashed;
+    display: flex;
+    flex-direction: column;
+}

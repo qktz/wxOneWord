@@ -1,10 +1,8 @@
 <!--promise.wxml-->
-<import src="../../template/user.wxml"/>
+<import src="../../template/user.wxml" />
 
-<view class="container">
-    <view>
-        <button>我是一个button</button>
-        <label style="border: 2rpx solid; border-color: burlywood">我是一个button</label>
-        <template is="user" data="{{...img}}"></template>
-    </view>
+<view class="whole_container">
+	<block class="user_container" wx:for="{{img}}">
+		<template is="user" data="{{...item}}" />
+	</block>
 </view>

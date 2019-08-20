@@ -1,6 +1,6 @@
 <template name="user">
     <view style="display:flex;flex-direction:column">
-        <image mode="widthFix" style="width: 200rpx" src="{{imgSrc}}"></image>
+        <image mode="widthFix" style="width: 350rpx" src="{{imgSrc}}"></image>
         <label class="tpl_name_label"> {{name}} </label>
     </view>
 </template>
